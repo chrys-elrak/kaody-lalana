@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-settings',
@@ -6,10 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./settings.page.scss'],
 })
 export class SettingsPage implements OnInit {
-
-  constructor() { }
+  settingModel = {
+    language: '',
+    darkMode: false
+  };
+  constructor(private translate: TranslateService) { }
 
   ngOnInit() {
+  }
+
+  save() {
+    console.log(this.settingModel);
+    this.translate.setDefaultLang(this.settingModel.language);
   }
 
 }
