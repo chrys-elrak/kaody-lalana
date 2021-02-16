@@ -3,13 +3,13 @@
   "home_page": {
     "title": "Page d'acceuil",
     "def": {
-      "card_title": "",
-      "card_subtitle": "",
-      "card__content": ""
+      "card_title": "Definiton",
+      "card_subtitle": "Les definitions bon a savoir",
+      "card_content": ""
     },
     "pan": {
-      "card_title": "",
-      "card_subtitle": "",
+      "card_title": "Paneaux de signialisations",
+      "card_subtitle": "Les panneaux de signialisations bon a connaitre",
       "card_content": ""
     }
   },

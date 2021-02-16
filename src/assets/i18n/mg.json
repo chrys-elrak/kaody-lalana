@@ -3,13 +3,13 @@
   "home_page": {
     "title": "Pejy fandraisana",
     "def": {
-      "card_title": "",
-      "card_subtitle": "",
-      "card__content": ""
+      "card_title": "Famaritana",
+      "card_subtitle": "Ireo famaritana tsara ho fantatra",
+      "card_content": ""
     },
     "pan": {
-      "card_title": "",
-      "card_subtitle": "",
+      "card_title": "Takelaka",
+      "card_subtitle": "Ireo takelaka tsara ho fantatra",
       "card_content": ""
     }
   },
