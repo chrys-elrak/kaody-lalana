@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { PanneauxPageRoutingModule } from './panneaux-routing.module';
 
 import { PanneauxPage } from './panneaux.page';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    PanneauxPageRoutingModule
+    PanneauxPageRoutingModule,
+    TranslateModule
   ],
   declarations: [PanneauxPage]
 })
