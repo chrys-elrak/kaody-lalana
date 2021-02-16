@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'definition',
+    loadChildren: () => import('./pages/definition/definition.module').then( m => m.DefinitionPageModule)
+  },
+  {
+    path: 'panneaux',
+    loadChildren: () => import('./pages/panneaux/panneaux.module').then( m => m.PanneauxPageModule)
+  },
 ];
 
 @NgModule({
