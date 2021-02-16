@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-definition',
@@ -7,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DefinitionPage implements OnInit {
 
-  constructor() { }
-
+  constructor(translate: TranslateService) {
+    translate.setDefaultLang('mg');
+}
   ngOnInit() {
   }
 

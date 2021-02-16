@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { DefinitionPageRoutingModule } from './definition-routing.module';
 
 import { DefinitionPage } from './definition.page';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    DefinitionPageRoutingModule
+    DefinitionPageRoutingModule,
+    TranslateModule
   ],
   declarations: [DefinitionPage]
 })
