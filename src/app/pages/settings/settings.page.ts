@@ -14,10 +14,11 @@ export class SettingsPage implements OnInit {
   constructor(private translate: TranslateService) { }
 
   ngOnInit() {
+    this.settingModel = JSON.parse(localStorage.getItem('xc-settings'));
   }
 
   save() {
-    console.log(this.settingModel);
+    localStorage.setItem('xc-settings' , JSON.stringify(this.settingModel));
     this.translate.setDefaultLang(this.settingModel.language);
   }
 
