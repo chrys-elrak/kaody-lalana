@@ -1,7 +1,37 @@
 {
-  "appName": "Fitsipiky ny lalana",
-  "definition": "Famaritana",
-  "home": "Fandraisana",
-  "panels": "Takelaka",
-  "about": "Mombamomba"
+  "app_name": "Fitsipika ny lalana",
+  "home_page": {
+    "title": "Pejy fandraisana",
+    "def": {
+      "card_title": "",
+      "card_subtitle": "",
+      "card__content": ""
+    },
+    "pan": {
+      "card_title": "",
+      "card_subtitle": "",
+      "card_content": ""
+    }
+  },
+  "about_page": {
+    "title": "Mombamomba",
+    "card_title": "",
+    "card_subtitle": "",
+    "card_content": ""
+  },
+  "definition_page": {
+    "title": "Famaritana"
+  },
+  "panneaux_page": {
+    "title": "Takelaka"
+  },
+  "settings_page": {
+    "title": "Kirakira",
+    "language_label": "",
+    "select_placeholder": "",
+    "select_fr": "",
+    "select_mg": "",
+    "dark_mode": "",
+    "save_button": ""
+  }
 }

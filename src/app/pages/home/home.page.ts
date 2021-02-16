@@ -9,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class HomePage {
 
   constructor(translate: TranslateService) {
-    translate.setDefaultLang('mg');
+    translate.setDefaultLang('fr');
 }
 
 

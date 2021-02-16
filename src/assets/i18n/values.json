@@ -1,7 +1,7 @@
 {
-  "app_name": "Code de la route",
+  "app_name": "",
   "home_page": {
-    "title": "Page d'acceuil",
+    "title": "",
     "def": {
       "card_title": "",
       "card_subtitle": "",
@@ -14,19 +14,19 @@
     }
   },
   "about_page": {
-    "title": "Apropos",
+    "title": "",
     "card_title": "",
     "card_subtitle": "",
     "card_content": ""
   },
   "definition_page": {
-    "title": "Definition"
+    "title": ""
   },
   "panneaux_page": {
-    "title": "Panneaux de signialisations"
+    "title": ""
   },
   "settings_page": {
-    "title": "Parametres",
+    "title": "",
     "language_label": "",
     "select_placeholder": "",
     "select_fr": "",
