@@ -27,15 +27,15 @@
   },
   "settings_page": {
     "title": "Kirakira",
-    "language_label": "",
-    "select_placeholder": "",
-    "select_fr": "",
-    "select_mg": "",
-    "dark_mode": "",
-    "save_button": "",
+    "language_label": "Fiteny",
+    "select_placeholder": "Misafidiana iray",
+    "select_fr": "Frantsay",
+    "select_mg": "Malagasy",
+    "dark_mode": "Matroka",
+    "save_button": "Hitahiry",
     "save_success_toast": "Voatahiry ny fanovana nataonao",
     "language": {
-      "ok_select": "Hitahiry",
+      "ok_select": "Ekena",
       "cancel_select": "Hajanona"
     }
   },

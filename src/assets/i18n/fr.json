@@ -27,12 +27,12 @@
   },
   "settings_page": {
     "title": "Parametres",
-    "language_label": "",
-    "select_placeholder": "",
-    "select_fr": "",
-    "select_mg": "",
-    "dark_mode": "",
-    "save_button": "",
+    "language_label": "Langage",
+    "select_placeholder": "Choisi un",
+    "select_fr": "Francais",
+    "select_mg": "Malgache",
+    "dark_mode": "Mode sombre",
+    "save_button": "Enregistrer",
     "save_success_toast": "Votre modification a bien ete enregistrer",
     "language": {
       "ok_select": "Confirmer",
