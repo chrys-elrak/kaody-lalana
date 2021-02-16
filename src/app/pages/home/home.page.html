@@ -4,15 +4,17 @@
       {{ 'appName' | translate }}
     </ion-title>
     <ion-buttons slot="start">
-        <ion-menu-button menu="main-menu"></ion-menu-button>
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end" routerLink="/settings">
+      <ion-icon name="settings-outline"></ion-icon>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-card routerLink='/definition'>
-    <img src="https://www.abvtc.fr/media/k2/items/cache/787ae9ec9023a82f5aa7e4c1a64f73cb_L.jpg"
-    width="100%"/>
+    <img src="https://www.abvtc.fr/media/k2/items/cache/787ae9ec9023a82f5aa7e4c1a64f73cb_L.jpg" width="100%" />
 
     <ion-card-header>
       <ion-card-title>Definition</ion-card-title>
@@ -26,8 +28,7 @@
   </ion-card>
 
   <ion-card routerLink='/panneaux'>
-    <img src="https://www.scienceacademie.org/wp-content/uploads/2019/06/71929799_s.jpg"
-    width="100%"/>
+    <img src="https://www.scienceacademie.org/wp-content/uploads/2019/06/71929799_s.jpg" width="100%" />
 
     <ion-card-header>
       <ion-card-title>Panneaux</ion-card-title>

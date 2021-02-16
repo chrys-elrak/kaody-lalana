@@ -1,4 +1,8 @@
 {
   "appName": "Code de la route",
-  "definition": "Definition"
+  "definition": "Definition",
+  "home": "Acceuil",
+  "panels": "Panneaux",
+  "about": "Apropos"
+
 }

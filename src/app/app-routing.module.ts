@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'apropos',
     loadChildren: () => import('./pages/apropos/apropos.module').then( m => m.AproposPageModule)
   },
+  {
+    path: 'settings',
+    loadChildren: () => import('./pages/settings/settings.module').then( m => m.SettingsPageModule)
+  },
 ];
 
 @NgModule({
