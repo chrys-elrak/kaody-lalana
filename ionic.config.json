@@ -1,0 +1,7 @@
+{
+  "name": "traffic-laws-mg",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
