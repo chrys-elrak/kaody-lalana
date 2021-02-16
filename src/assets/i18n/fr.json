@@ -33,7 +33,11 @@
     "select_mg": "",
     "dark_mode": "",
     "save_button": "",
-    "save_success_toast": "Votre modification a bien ete enregistrer"
+    "save_success_toast": "Votre modification a bien ete enregistrer",
+    "language": {
+      "ok_select": "Confirmer",
+      "cancel_select": "Annuler"
+    }
   },
   "quiz_page": {
     "title": "Quiz"

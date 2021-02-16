@@ -33,7 +33,11 @@
     "select_fr": "",
     "select_mg": "",
     "dark_mode": "",
-    "save_button": ""
+    "save_button": "",
+    "language": {
+      "ok_select": "",
+      "cancel_select": ""
+    }
   },
   "quiz_page": {
     "title": ""

@@ -33,7 +33,11 @@
     "select_mg": "",
     "dark_mode": "",
     "save_button": "",
-    "save_success_toast": "Voatahiry ny fanovana nataonao"
+    "save_success_toast": "Voatahiry ny fanovana nataonao",
+    "language": {
+      "ok_select": "Hitahiry",
+      "cancel_select": "Hajanona"
+    }
   },
   "quiz_page": {
     "title": "Handrana"

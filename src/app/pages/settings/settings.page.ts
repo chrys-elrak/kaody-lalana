@@ -25,7 +25,7 @@ export class SettingsPage implements OnInit {
 
   async save() {
     this.storage.setObject('xc-settings' , this.settingModel);
-    this.translate.setDefaultLang(this.settingModel.language);
+    this.translate.use(this.settingModel.language);
     const toast = await this.toastController.create({
       duration: 2000
     });
