@@ -32,7 +32,8 @@
     "select_fr": "",
     "select_mg": "",
     "dark_mode": "",
-    "save_button": ""
+    "save_button": "",
+    "save_success_toast": "Votre modification a bien ete enregistrer"
   },
   "quiz_page": {
     "title": "Quiz"

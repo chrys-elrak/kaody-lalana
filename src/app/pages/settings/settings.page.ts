@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ToastController } from '@ionic/angular';
 import { TranslateService } from '@ngx-translate/core';
+import { StorageService } from 'src/app/services/storage.service';
 
 @Component({
   selector: 'app-settings',
@@ -11,15 +13,26 @@ export class SettingsPage implements OnInit {
     language: '',
     darkMode: false
   };
-  constructor(private translate: TranslateService) { }
+  constructor(
+    private translate: TranslateService,
+    private storage: StorageService,
+    public toastController: ToastController
+    ) { }
 
   ngOnInit() {
-    this.settingModel = JSON.parse(localStorage.getItem('xc-settings'));
+    this.storage.getObject('xc-settings').then(xCSettings => this.settingModel = xCSettings);
   }
 
-  save() {
-    localStorage.setItem('xc-settings' , JSON.stringify(this.settingModel));
+  async save() {
+    this.storage.setObject('xc-settings' , this.settingModel);
     this.translate.setDefaultLang(this.settingModel.language);
+    const toast = await this.toastController.create({
+      duration: 2000
+    });
+    this.translate.get('settings_page.save_success_toast').subscribe(text => {
+      toast.message = text;
+    })
+    toast.present();
   }
 
 }

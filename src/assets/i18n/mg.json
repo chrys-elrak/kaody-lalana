@@ -32,7 +32,8 @@
     "select_fr": "",
     "select_mg": "",
     "dark_mode": "",
-    "save_button": ""
+    "save_button": "",
+    "save_success_toast": "Voatahiry ny fanovana nataonao"
   },
   "quiz_page": {
     "title": "Handrana"
