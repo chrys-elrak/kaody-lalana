@@ -1,5 +1,7 @@
 {
   "app_name": "Code de la route",
+  "add_description": "",
+  "version": "",
   "home_page": {
     "title": "Page d'acceuil",
     "def": {
@@ -17,7 +19,13 @@
     "title": "Apropos",
     "card_title": "",
     "card_subtitle": "",
-    "card_content": ""
+    "card_content": "",
+    "author": {
+      "name": "Chrys Rakotonimanana",
+      "title": "Developpeur Junior",
+      "description": "",
+      "image": "https://avatars.githubusercontent.com/u/40733956?s=460&u=c7cd3f42fe975d6151c3611811e6fc7703d96f36&v=4"
+    }
   },
   "definition_page": {
     "title": "Definition"

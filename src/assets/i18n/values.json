@@ -1,5 +1,7 @@
 {
   "app_name": "",
+  "add_description": "",
+  "version": "",
   "home_page": {
     "title": "",
     "def": {
@@ -17,7 +19,13 @@
     "title": "",
     "card_title": "",
     "card_subtitle": "",
-    "card_content": ""
+    "card_content": "",
+    "author": {
+      "name": "",
+      "title": "",
+      "description": "",
+      "image": ""
+    }
   },
   "definition_page": {
     "title": ""
