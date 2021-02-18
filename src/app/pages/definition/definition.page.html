@@ -9,5 +9,15 @@
   </ion-toolbar>
 </ion-header>
 <ion-content>
+  <ion-list>
+      <ion-card *ngFor="let i of [1, 2,3,4,3,4]" (click)="presentModal(i)">
+        <ion-card-header>
+          <ion-card-title>Card Title {{i}}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <div [innerHTML]="text"></div>
+        </ion-card-content>
+      </ion-card>
+  </ion-list>
 
 </ion-content>
